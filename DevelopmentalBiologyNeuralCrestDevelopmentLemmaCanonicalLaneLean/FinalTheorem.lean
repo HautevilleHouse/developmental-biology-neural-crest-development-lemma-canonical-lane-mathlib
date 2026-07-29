@@ -1,0 +1,19 @@
+import canonicalLaneMathlib.AdmissibleClass
+import DevelopmentalBiologyNeuralCrestDevelopmentLemmaCanonicalLaneLean.NeuralCrestMigration
+import DevelopmentalBiologyNeuralCrestDevelopmentLemmaCanonicalLaneLean.GeneRegulatoryNetwork
+import DevelopmentalBiologyNeuralCrestDevelopmentLemmaCanonicalLaneLean.CellFateSpecification
+import DevelopmentalBiologyNeuralCrestDevelopmentLemmaCanonicalLaneLean.EpithelialMesenchymalTransition
+import DevelopmentalBiologyNeuralCrestDevelopmentLemmaCanonicalLaneLean.MorphogenGradient
+
+namespace HautevilleHouse
+namespace DevelopmentalBiologyNeuralCrestDevelopmentLemmaCanonicalLaneLean
+
+def ConstrainedNeuralCrestClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_neural_crest_endgame (A : AdmissibleClass) :
+    ConstrainedNeuralCrestClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end DevelopmentalBiologyNeuralCrestDevelopmentLemmaCanonicalLaneLean
+end HautevilleHouse
